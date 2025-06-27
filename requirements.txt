@@ -1,0 +1,2 @@
+# Requirements for the UNAI vault kernel
+requests>=2.25.0
