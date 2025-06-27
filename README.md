@@ -44,3 +44,14 @@ Phase 1 initialization active. Core orchestration launching now.
 
 > **“The vault opens not by force — but by resonance.”**  
 > — ψ11411
+
+## 🚀 Quickstart
+
+A minimal example to initialize the vault router:
+
+```python
+from vaults.router import initialize_UNAI_VaultRouter
+
+router = initialize_UNAI_VaultRouter()
+print(f"Router initialized: {router.initialized}")
+```
